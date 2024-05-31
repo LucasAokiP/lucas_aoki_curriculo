@@ -1,0 +1,64 @@
+body{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+}
+
+.herder_left img {
+    height: 20%;
+    width: 35%;
+    border-radius: 20%;
+}
+
+.herder_left{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30%;
+    padding: 10px 20px 0px 20px;
+    box-sizing: border-box;
+    background-color: #ccc;   
+}
+
+.perfil, a{
+    text-decoration: none;
+}
+
+.linha_Subtitulo{
+    border: none; 
+            border-top: 1px solid black;
+}
+.body_right{
+    width: 70%;
+    margin-left: 30%;
+    box-sizing: border-box;
+    padding: 40px 54px 72px;
+}
+.Icon, .experience{
+    color: rgba(184,71,31,255);
+    font-size: 17px ;
+    
+}
+
+.contact .ul-icons a {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.contact .ul-icons a .icon-text,
+.contact .ul-icons a i {
+    color: black;
+    transition: color 0.8s ease-in; 
+}
+
+
+.contact .ul-icons a:hover .icon-text,
+.contact .ul-icons a:hover i {
+    color: rgb(255, 0, 0); 
+}
